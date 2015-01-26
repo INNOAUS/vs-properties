@@ -1,0 +1,14 @@
+ACE_ROOT=D:\devtools\ACE-6.0.5
+ANT_HOME=D:\devtools\apache-ant-1.9.4
+CPPRESTSDK_ROOT=D:\devtools\Microsoft Cpp REST SDK for VS 2013 v1.4\SDK
+CRYPTOPP_ROOT=F:\devrepo\innoaus\cryptopp562
+ICE_JS_HOME=D:\devtools\ZeroC\IceJS-0.1.0
+ICE_ROOT=D:\devtools\ZeroC\Ice-3.5.1
+JAVA_HOME=C:\Program Files\Java\jdk1.6.0_45
+LIBNET_ROOT=F:\devrepo\innoaus\libnet-master\libnet
+OPENCV_ROOT=D:\devtools\OpenCV-3.0.0\build
+POSTGRESQL_ROOT=F:\devrepo\innoaus\pgsql
+SQLITE_ROOT=F:\devrepo\innoaus\sqlite
+WPCAP_ROOT=F:\devrepo\innoaus\WpdPack-4.1.2
+XERCESC_ROOT=F:\devrepo\innoaus\xerces-c-3.1.1
+XTTOOLKIT_ROOT=D:\devtools\Xtreme ToolkitPro v16.3.1
