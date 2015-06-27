@@ -29,7 +29,7 @@
       <AdditionalIncludeDirectories>$(ICE_ROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceDb.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(ICE_ROOT)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -39,7 +39,7 @@
       <AdditionalIncludeDirectories>$(ICE_ROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceDb.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <TargetMachine>MachineX64</TargetMachine>
       <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
@@ -71,7 +71,7 @@
       <AdditionalIncludeDirectories>$(ICE_ROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceDb.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\vc110;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -81,12 +81,11 @@
       <AdditionalIncludeDirectories>$(ICE_ROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceDb.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <TargetMachine>MachineX64</TargetMachine>
       <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\vc110\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
-  
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Debug|Win32|v110_xp'">
     <ClCompile>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -114,7 +113,7 @@
       <AdditionalIncludeDirectories>$(ICE_ROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceDb.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\vc110;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -124,7 +123,7 @@
       <AdditionalIncludeDirectories>$(ICE_ROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceDb.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <TargetMachine>MachineX64</TargetMachine>
       <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\vc110\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
@@ -136,7 +135,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>Iced.lib;IceUtild.lib;Freezed.lib;Glacier2d.lib;IceBoxd.lib;IceDbd.lib;IceGridd.lib;IcePatch2d.lib;IceSSLd.lib;IceStormd.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\vc120;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ICE_ROOT)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Debug|x64|v120'">
@@ -145,9 +144,9 @@
       <AdditionalIncludeDirectories>$(ICE_ROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Iced.lib;IceUtild.lib;Freezed.lib;Glacier2d.lib;IceBoxd.lib;IceDbd.lib;IceGridd.lib;IcePatch2d.lib;IceSSLd.lib;IceStormd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Iced.lib;IceUtild.lib;Freezed.lib;Glacier2d.lib;IceBoxd.lib;IceGridd.lib;IcePatch2d.lib;IceSSLd.lib;IceStormd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <TargetMachine>MachineX64</TargetMachine>
-      <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\vc120\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Release|Win32|v120'">
@@ -156,8 +155,8 @@
       <AdditionalIncludeDirectories>$(ICE_ROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceDb.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\vc120;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ICE_ROOT)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Release|x64|v120'">
@@ -166,12 +165,11 @@
       <AdditionalIncludeDirectories>$(ICE_ROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceDb.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <TargetMachine>MachineX64</TargetMachine>
-      <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\vc120\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
-  
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Debug|Win32|v120_xp'">
     <ClCompile>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -179,7 +177,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>Iced.lib;IceUtild.lib;Freezed.lib;Glacier2d.lib;IceBoxd.lib;IceDbd.lib;IceGridd.lib;IcePatch2d.lib;IceSSLd.lib;IceStormd.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\vc120;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ICE_ROOT)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Debug|x64|v120_xp'">
@@ -190,7 +188,7 @@
     <Link>
       <AdditionalDependencies>Iced.lib;IceUtild.lib;Freezed.lib;Glacier2d.lib;IceBoxd.lib;IceDbd.lib;IceGridd.lib;IcePatch2d.lib;IceSSLd.lib;IceStormd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <TargetMachine>MachineX64</TargetMachine>
-      <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\vc120\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Release|Win32|v120_xp'">
@@ -199,8 +197,8 @@
       <AdditionalIncludeDirectories>$(ICE_ROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceDb.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\vc120;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ICE_ROOT)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)|$(PlatformToolset)'=='Release|x64|v120_xp'">
@@ -209,12 +207,10 @@
       <AdditionalIncludeDirectories>$(ICE_ROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceDb.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Ice.lib;IceUtil.lib;Freeze.lib;Glacier2.lib;IceBox.lib;IceGrid.lib;IcePatch2.lib;IceSSL.lib;IceStorm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <TargetMachine>MachineX64</TargetMachine>
-      <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\vc120\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ICE_ROOT)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
-  
-    
   <ItemGroup />
 </Project>
