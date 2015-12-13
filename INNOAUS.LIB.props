@@ -3,8 +3,9 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <OutDir>$(SolutionDir)lib\$(Configuration)\$(Platform)\$(PlatformToolset)\</OutDir>
-    <IntDir>$(SolutionDir)obj\$(Configuration)\$(Platform)\$(PlatformToolset)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)lib\</OutDir>
+    <IntDir>$(SolutionDir)obj\$(Configuration)\$(ProjectName)\$(Platform)\</IntDir>
+    <TargetName>$(ProjectName).$(Platform).$(PlatformToolset)</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
